@@ -17,6 +17,7 @@
     --color-medium-gray: #D8D8D8;
     --color-light-gray: #E5E5E5;
     --color-very-light-gray: #F3F3F3;
+    --color-translucent-white: rgba(255, 255, 255, 0.43);
 
     /* font-size geral */
     --text-preset-1: 200px;

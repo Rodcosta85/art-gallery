@@ -1,10 +1,13 @@
 import { BrowserRouter } from "react-router-dom";
 import AppRoutes from './AppRoutes';
+import { SlideshowProvider } from "./Context";
 
 function App() {
   return (
     <BrowserRouter>
-      <AppRoutes />
+      <SlideshowProvider>
+        <AppRoutes />
+      </SlideshowProvider>
     </BrowserRouter>
   )
 }

@@ -1,11 +1,11 @@
 import LightboxBtn from './../../../public/shared/icon-view-image.svg'
 
 interface ArtistProps {
-    artist: any
+    currentPainting: any
     triggerLightbox: () => void
 }
 
-const index: React.FC<ArtistProps> = ({ artist, triggerLightbox }) => {
+const index: React.FC<ArtistProps> = ({ currentPainting, triggerLightbox }) => {
     return (
         <>
             <div className='w-212 h-156 flex'>
@@ -13,20 +13,24 @@ const index: React.FC<ArtistProps> = ({ artist, triggerLightbox }) => {
                 {/* div para a imagem e o botão do lightbox */}
                 <div className='relative'>
                     <img
-                        src={artist?.images.hero.large}
-                        alt={artist?.description}
+                        src={currentPainting?.images.hero.large}
+                        alt={currentPainting?.description}
                         className='w-120 h-140 object-cover relative z-10'
                     />
                     <button
                         type="button"
                         onClick={triggerLightbox}
                         className='flex gap-[1rem] items-center justify-center w-40 h-[2.5rem] p-[1rem] bg-black 
-            text-white text-preset-7 font-bold leading-mobile-lh-4 tracking-[0.125rem]
-            absolute z-20 left-[1rem] bottom-[5rem]
-            cursor-pointer
-            '>
-                        <img src={LightboxBtn} alt="four arrows pointing outwards in the diagonal" />
-                        VIEW IMAGE
+                        absolute z-20 left-[1rem] bottom-[5rem]
+                        text-white text-preset-7 font-bold leading-mobile-lh-4 tracking-[0.125rem]
+                        cursor-pointer transition-all duration-300 ease-in-out
+                        hover:bg-translucent-white
+                    '>
+                        <img 
+                        src={LightboxBtn} 
+                        alt="four arrows pointing outwards in the diagonal" 
+                        />
+                       VIEW IMAGE
                     </button>
                 </div>
                 {/* div para a imagem e o botão do lightbox */}
@@ -36,15 +40,15 @@ const index: React.FC<ArtistProps> = ({ artist, triggerLightbox }) => {
                 <div className='flex flex-col justify-between'>
                     <div className='flex flex-col gap-[1.5rem] w-95 ml-[-4rem] pl-[4rem] pb-[4rem] relative z-40 bg-white'>
                         <h1 className='text-black text-preset-2 font-bold leading-lh-2 w-52'>
-                            {artist?.name}
+                            {currentPainting?.name}
                         </h1>
                         <p className='text-dark-gray text-preset-4 font-normal leading-lh-4'>
-                            {artist?.artist.name}
+                            {currentPainting?.artist.name}
                         </p>
                     </div>
 
                     <img
-                        src={artist?.artist.image}
+                        src={currentPainting?.artist.image}
                         alt=""
                         className='w-32 h-32 ml-[2rem]'
                     />

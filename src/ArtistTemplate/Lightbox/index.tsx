@@ -1,10 +1,10 @@
 interface ArtistProps {
-    artist: any
+    currentPainting: any
     triggerLightbox: () => void,
     lightbox: boolean
 }
 
-const index:React.FC<ArtistProps> = ({ artist, triggerLightbox, lightbox }) => {
+const index:React.FC<ArtistProps> = ({ currentPainting, triggerLightbox, lightbox }) => {
     return (
         <>
             <div className={lightbox ? 'relative z-99 flex justify-center items-center w-full h-full' : 'hidden'}>
@@ -16,7 +16,7 @@ const index:React.FC<ArtistProps> = ({ artist, triggerLightbox, lightbox }) => {
                         CLOSE
                     </button>
                     <img
-                        src={artist?.images.gallery}
+                        src={currentPainting?.images.gallery}
                         alt=""
                         className='w-[57.31rem] h-178 object-cover' />
                 </div>
