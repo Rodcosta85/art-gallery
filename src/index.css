@@ -1,0 +1,83 @@
+.force-column-width {
+  /* Your exact width */
+  width: 19.3175rem !important; 
+
+  /* These are required to override the library's flex styles */
+  flex-basis: 19.3175rem !important;
+  flex-shrink: 0 !important;
+}
+
+@import "tailwindcss";
+
+
+@theme {
+
+    /* cores globais */
+    --color-dark-gray: #7D7D7D;
+    --color-medium-gray: #D8D8D8;
+    --color-light-gray: #E5E5E5;
+    --color-very-light-gray: #F3F3F3;
+
+    /* font-size geral */
+    --text-preset-1: 200px;
+    --text-preset-2: 56px;
+    --text-preset-3: 18px;
+    --text-preset-4: 15px;
+    --text-preset-5: 13px;
+    --text-preset-6: 12px;
+    --text-preset-7: 10px; 
+
+    /* font-size do mobile */
+    --text-mobile-preset-1: 100px;
+    --text-mobile-preset-2: 24px;
+    --text-mobile-preset-3: 14px;
+    --text-mobile-preset-4: 10px;
+    --text-mobile-preset-5: 9px;
+
+    /* line-heigh geral */
+    --leading-lh-1: 115%;
+    --leading-lh-2: 115%;
+    --leading-lh-3: 125%;
+    --leading-lh-4: 135%;
+    --leading-lh-5: 125%;
+    --leading-lh-6: 125%;
+    --leading-lh-7: 120%;
+
+    /* line-height do mobile */
+    --leading-mobile-lh-1: 100%;
+    --leading-mobile-lh-2: 125%;
+    --leading-mobile-lh-3: 200%;
+    --leading-mobile-lh-4: 120%;
+    --leading-mobile-lh-5: 125%;
+
+    /* letter-spacing geral */
+    --tracking-ls-1: -0.2px;
+    --tracking-ls-2: 0px;
+    --tracking-ls-3: 0px;
+    --tracking-ls-4: 0px;
+    --tracking-ls-5: 0px;
+    --tracking-ls-6: 2.5px;
+    --tracking-ls-7: 2px;
+    
+    /* letter-spacing do mobile */
+    --tracking-mobile-ls-1: 0px;
+    --tracking-mobile-ls-2: -0.25px;
+    --tracking-mobile-ls-3: 0px;
+    --tracking-mobile-ls-4: 0px;
+    --tracking-mobile-ls-5: 2px;
+
+    /* tamanhos de padding e margin */
+    --spacing-0: 0px;
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-700: 56px;
+    --spacing-800: 64px;
+    --spacing-1000: 80px;
+    --spacing-1200: 96px;
+
+    /* font-family */
+    --font-libre-baskerville: "Libre Baskerville", serif; 
+}
