@@ -252,7 +252,7 @@
     "description": "The Mona Lisa (/ˌmoʊnə ˈliːsə/; italian: La Gioconda [la dʒoˈkonda] or Monna Lisa [ˈmɔnna ˈliːza]) is a half-length portrait painting by Italian artist Leonardo da Vinci. Considered an archetypal masterpiece of the Italian Renaissance, it has been described as \"the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world\". The painting's novel qualities include the subject's enigmatic expression, the monumentality of the composition, the subtle modelling of forms, and the atmospheric illusionism.",
     "source": "https://en.wikipedia.org/wiki/Mona_Lisa",
     "artist": {
-      "image": "/mona-lisa/artist.jpg",
+      "image": "/mona-lisa/leonard-da-vinci.jpg",
       "name": "Leonardo da Vinci"
     },
     "images": {
@@ -283,6 +283,215 @@
       "gallery": "/the-swing/gallery.jpg"
     },
     "slug": "the-swing"
+  },
+  {
+    "name": "The Persistence of Memory",
+    "year": 1931,
+    "description": "The Persistence of Memory is a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism. The well-known surrealist piece introduced the image of the soft melting pocket watch. Dalí stated that the soft watches were not inspired by the theory of relativity, but by the surrealist perception of a Camembert cheese melting in the sun.",
+    "source": "https://en.wikipedia.org/wiki/The_Persistence_of_Memory",
+    "artist": {
+      "image": "the-persistance-of-memory/salvador-dali.jpg",
+      "name": "Salvador Dalí"
+    },
+    "images": {
+        "thumbnail": "the-persistance-of-memory/the-persistance-of-memory.jpg",
+      "hero": {
+        "small": "the-persistance-of-memory/the-persistance-of-memory.jpg",
+        "large": "the-persistance-of-memory/the-persistance-of-memory.jpg"
+      },
+      "gallery": "the-persistance-of-memory/the-persistance-of-memory.jpg"
+    },
+    "slug": "the-persistence-of-memory"
+  },
+  {
+    "name": "The Birth of Venus",
+    "year": 1485,
+    "description": "The Birth of Venus is a painting by the Italian artist Sandro Botticelli, probably executed in the mid-1480s. It depicts the goddess Venus arriving at the shore after her birth, when she had emerged from the sea fully-grown. The painting is in the Uffizi Gallery in Florence, Italy.",
+    "source": "https://en.wikipedia.org/wiki/The_Birth_of_Venus",
+    "artist": {
+        "image": "/the-birth-of-venus/sandro-botticelli.jpg",
+      "name": "Sandro Botticelli"
+    },
+    "images": {
+        "thumbnail": "/the-birth-of-venus/the-birth-of-venus.jpg",
+      "hero": {
+        "small": "/the-birth-of-venus/the-birth-of-venus.jpg",
+        "large": "/the-birth-of-venus/the-birth-of-venus.jpg"
+      },
+      "gallery": "/the-birth-of-venus/the-birth-of-venus.jpg"
+    },
+    "slug": "the-birth-of-venus"
+  },
+  {
+    "name": "The Kiss",
+    "year": 1908,
+    "description": "The Kiss is an oil-on-canvas painting with added gold leaf, silver and platinum by the Austrian Symbolist painter Gustav Klimt. It was painted at some point in 1907 and 1908, during the height of what scholars call his 'Golden Period'. The painting depicts a couple embracing each other, their bodies entwined in elaborate robes.",
+    "source": "https://en.wikipedia.org/wiki/The_Kiss_(Klimt)",
+    "artist": {
+      "image": "/the-kiss/Klimt.jpg",
+      "name": "Gustav Klimt"
+    },
+    "images": {
+        "thumbnail": "/the-kiss/the-kiss.jpg",
+      "hero": {
+        "small": "/the-kiss/the-kiss.jpg",
+        "large": "/the-kiss/the-kiss.jpg"
+      },
+      "gallery": "/the-kiss/the-kiss.jpg"
+    },
+    "slug": "the-kiss"
+  },
+  {
+    "name": "American Gothic",
+    "year": 1930,
+    "description": "American Gothic is a 1930 oil painting on beaverboard by the American Regionalist artist Grant Wood, depicting a Midwestern farmer and his daughter standing in front of their Carpenter Gothic style home. The figures were modeled after Wood's sister Nan Wood Graham and their dentist, Dr. Byron McKeeby.",
+    "source": "https://en.wikipedia.org/wiki/American_Gothic",
+    "artist": {
+      "image": "/american-gothic/grant-wood.jpg",
+      "name": "Grant Wood"
+    },
+    "images": {
+        "thumbnail": "/american-gothic/american-gothic.jpg",
+      "hero": {
+        "small": "/american-gothic/american-gothic.jpg",
+        "large": "/american-gothic/american-gothic.jpg"
+      },
+      "gallery": "/american-gothic/american-gothic.jpg"
+    },
+    "slug": "american-gothic"
+  },
+  {
+    "name": "The Scream",
+    "year": 1893,
+    "description": "The Scream is an art composition created by Norwegian artist Edvard Munch in 1893. The Norwegian name of the piece is Skrik ('Scream'). The agonized face in the painting has become one of the most iconic images in art, seen as representing a profound experience of existential dread related to the human condition.",
+    "source": "https://en.wikipedia.org/wiki/The_Scream",
+    "artist": {
+      "image": "/the-scream/edvard-munch.jpg",
+      "name": "Edvard Munch"
+    },
+    "images": {
+        "thumbnail": "/the-scream/the-scream.jpg",
+      "hero": {
+        "small": "/the-scream/the-scream.jpg",
+        "large": "/the-scream/the-scream.jpg"
+      },
+      "gallery": "/the-scream/the-scream.jpg"
+    },
+    "slug": "the-scream"
+  },
+  {
+    "name": "Nighthawks",
+    "year": 1942,
+    "description": "Nighthawks is a 1942 oil on canvas painting by Edward Hopper that portrays four people in a downtown diner late at night. The painting is viewed from the street through the diner's large glass window, which illuminates a darkened and deserted urban streetscape. It is considered Hopper's most famous work and one of the most recognizable paintings in American art.",
+    "source": "https://en.wikipedia.org/wiki/Nighthawks_(Hopper)",
+    "artist": {
+      "image": "/nighthawks/edward-hopper.jpg",
+      "name": "Edward Hopper"
+    },
+    "images": {
+        "thumbnail": "/nighthawks/nighthawks.jpg",
+      "hero": {
+        "small": "/nighthawks/nighthawks.jpg",
+        "large": "/nighthawks/nighthawks.jpg"
+      },
+      "gallery": "/nighthawks/nighthawks.jpg"
+    },
+    "slug": "nighthawks"
+  },
+  {
+    "name": "Abaporu",
+    "year": 1928,
+    "description": "Abaporu is an oil painting on canvas by the Brazilian painter Tarsila do Amaral. It depicts an ambiguous nude figure with enormous feet and hands and a small head, sitting on a green plain. The background features a cactus and a yellow sun. The painting inspired the Manifesto Antropófago ('Cannibalist Manifesto') by Tarsila's husband, Oswald de Andrade, and became the central work of Brazil's Anthropophagic Movement.",
+    "source": "https://en.wikipedia.org/wiki/Abaporu",
+    "artist": {
+      "image": "/abaporu/tarsila-do-amaral.jpg",
+      "name": "Tarsila do Amaral"
+    },
+    "images": {
+        "thumbnail": "/abaporu/Abaporu.jpg",
+      "hero": {
+        "small": "/abaporu/Abaporu.jpg",
+        "large": "/abaporu/Abaporu.jpg"
+      },
+      "gallery": "/abaporu/Abaporu.jpg"
+    },
+    "slug": "abaporu"
+  },
+  {
+    "name": "The Last Supper",
+    "year": 1498,
+    "description": "The Last Supper is a mural painting by the Italian High Renaissance artist Leonardo da Vinci. The painting represents the scene of the Last Supper of Jesus with the Twelve Apostles, as it is told in the Gospel of John – specifically the moment after Jesus announces that one of his apostles will betray him. Its handling of space, mastery of perspective, and complex display of human emotion make it one of the Western world's most recognizable paintings.",
+    "source": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)",
+    "artist": {
+      "image": "/the-last-supper/leonardo-da-vinci.jpg",
+      "name": "Leonardo da Vinci"
+    },
+    "images": {
+        "thumbnail": "/the-last-supper/the-last-supper.jpg",
+      "hero": {
+        "small": "/the-last-supper/the-last-supper.jpg",
+        "large": "/the-last-supper/the-last-supper.jpg"
+      },
+      "gallery": "/the-last-supper/the-last-supper.jpg"
+    },
+    "slug": "the-last-supper"
+  },
+  {
+    "name": "The Garden of Earthly Delights",
+    "year": 1515,
+    "description": "The Garden of Earthly Delights is a triptych oil painting on oak panel painted by the Early Netherlandish master Hieronymus Bosch. The work is a large, complex triptych that depicts the Garden of Eden on the left panel, a broad panorama of nude figures and fantastical elements in the central panel, and a hellscape on the right panel. It is interpreted as a didactic warning on the perils of life's temptations.",
+    "source": "https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights",
+    "artist": {
+      "image": "/the-garden-of-earthly-delights/Hieronymus-Bosch.jpg",
+      "name": "Hieronymus Bosch"
+    },
+    "images": {
+        "thumbnail": "/the-garden-of-earthly-delights/the-garden-of-earthly-delights.jpg",
+      "hero": {
+        "small": "/the-garden-of-earthly-delights/the-garden-of-earthly-delights.jpg",
+        "large": "/the-garden-of-earthly-delights/the-garden-of-earthly-delights.jpg"
+      },
+      "gallery": "/the-garden-of-earthly-delights/the-garden-of-earthly-delights.jpg"
+    },
+    "slug": "the-garden-of-earthly-delights"
+  },
+  {
+    "name": "Arrangement in Grey and Black No. 1",
+    "year": 1871,
+    "description": "Commonly known as 'Whistler's Mother', this is an oil-on-canvas painting by American-born painter James McNeill Whistler. The painting is a portrait of Whistler's mother, Anna McNeill Whistler, and is a study in tonal harmony, composed of various shades of grey and black. It is one of the most famous works by an American artist outside the United States.",
+    "source": "https://en.wikipedia.org/wiki/Whistler%27s_Mother",
+    "artist": {
+      "image": "/whistler's-mother/james-whistler.jpg",
+      "name": "James McNeill Whistler"
+    },
+    "images": {
+        "thumbnail": "/whistler's-mother/whistler's-mother.jpg",
+      "hero": {
+        "small": "/whistler's-mother/whistler's-mother.jpg",
+        "large": "/whistler's-mother/whistler's-mother.jpg"
+      },
+      "gallery": "/whistler's-mother/whistler's-mother.jpg"
+    },
+    "slug": "whistlers-mother"
+  },
+  {
+    "name": "Las Meninas",
+    "year": 1656,
+    "description": "Las Meninas ('The Ladies-in-waiting') is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age. Its complex and enigmatic composition raises questions about reality and illusion, creating an uncertain relationship between the viewer and the figures depicted. It shows a large room in the Royal Alcazar of Madrid, featuring the young Infanta Margaret Theresa surrounded by her entourage, with Velázquez himself depicted working at a large canvas.",
+    "source": "https://en.wikipedia.org/wiki/Las_Meninas",
+    "artist": {
+      "image": "/las-meninas/diego-velazquez.jpg",
+      "name": "Diego Velázquez"
+    },
+    "images": {
+        "thumbnail": "/las-meninas/las-meninas.jpg",
+      "hero": {
+        "small": "/las-meninas/las-meninas.jpg",
+        "large": "/las-meninas/las-meninas.jpg"
+      },
+      "gallery": "/las-meninas/las-meninas.jpg"
+    },
+    "slug": "las-meninas"
   }
   
 ]
