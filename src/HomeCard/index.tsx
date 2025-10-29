@@ -3,20 +3,21 @@ import type { InfoProps } from './../typings'
 
 interface CardProps {
     artistInfo: InfoProps[],
-    togglePaintingPage: (name: string, slug: string) => void
+    togglePaintingPage: (slug: string) => void
 }
 
 const index: React.FC<CardProps> = ({ artistInfo, togglePaintingPage }) => {
 
-    // como faz o hover com estado??????? to perdido, pqp
-    const [hoverCard, setHoverCard] = useState<boolean>(false);
+    const [hoverCard, setHoverCard] = useState<number | null>(null);
 
     return (
         <>
             {artistInfo.map((painting, index: number) => (
                 <button
                     key={index}
-                    onClick={() => togglePaintingPage(painting.name, painting.slug)}
+                    onMouseEnter={() => setHoverCard(index)}
+                    onMouseLeave={() => setHoverCard(null)}
+                    onClick={() => togglePaintingPage(painting.slug)}
                     className="relative w-full h-full cursor-pointer rounded-[3px] "
                 >
                     <img
@@ -40,10 +41,9 @@ const index: React.FC<CardProps> = ({ artistInfo, togglePaintingPage }) => {
                         </p>
                     </div>
                     <div
-                        className={hoverCard ?
-                            'absolute z-20 left-0 bottom-0 w-full h-full block bg-light-gray opacity-70'
-                            :
-                            'hidden'
+                        className={hoverCard === index
+                            ? 'absolute z-20 left-0 bottom-0 w-full h-full block bg-light-gray opacity-70'
+                            : 'hidden'
                         }>
                     </div>
                 </button>

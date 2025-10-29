@@ -51,14 +51,14 @@ const index: React.FC<FooterProps> = ({ currentPainting,
                 </div>
 
                 <div className='flex gap-[2.5rem]'>
-                    <Link to={`/artist/${prevSlug}`}>
+                    <Link to={`/painting/${prevSlug}`}>
                         <img
                             src={Prev}
                             alt="uma seta para voltar para o slide anterior"
                             className='transition-all duration-200 ease-in-out hover:opacity-30'
                         />
                     </Link>
-                    <Link to={`/artist/${nextSlug}`}>
+                    <Link to={`/painting/${nextSlug}`}>
                         <img
                             src={Next}
                             alt="uma seta para ir para o slide seguinte"

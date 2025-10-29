@@ -1,8 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Header from './Header'
-import Home from './Home'
-import ArtistTemplate from './ArtistTemplate'
-
+import Header from "./Header";
+import Home from "./Home";
+import ArtistTemplate from "./ArtistTemplate";
 
 const AppRoutes = () => {
     return (
@@ -10,12 +9,10 @@ const AppRoutes = () => {
             <Header />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path='/artist/:slug' element={<ArtistTemplate />} />
+                <Route path="/painting/:slug" element={<ArtistTemplate />} />
             </Routes>
         </div>
-
-
-    )
+    );
 }
 
 export default AppRoutes;

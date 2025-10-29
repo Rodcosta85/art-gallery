@@ -1,4 +1,4 @@
-import LightboxBtn from './../../../public/shared/icon-view-image.svg'
+import LightboxBtn from '../../../public/shared/icon-view-image.svg'
 
 interface ArtistProps {
     currentPainting: any
@@ -49,12 +49,10 @@ const index: React.FC<ArtistProps> = ({ currentPainting, triggerLightbox }) => {
 
                     <img
                         src={currentPainting?.artist.image}
-                        alt=""
                         className='w-32 h-32 ml-[2rem]'
                     />
                 </div>
                 {/* div para o nome da pintura e a foto do artista */}
-
             </div>
         </>
     )

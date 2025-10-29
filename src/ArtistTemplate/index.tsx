@@ -6,7 +6,7 @@ import ImagesTitle from './ImagesTitle'
 import YearDescription from './YearDescription'
 import PseudoFooter from './PseudoFooter'
 import Lightbox from './Lightbox'
-import data from './../data.json'
+import data from '../data.json'
 
 
 const index = () => {
@@ -42,7 +42,7 @@ const index = () => {
     if (isSlideshowActive) {
       const timer = setTimeout(() => {
         // Navigate to the next artist
-        navigate(`/artist/${nextPainterSlug}`);
+        navigate(`/painting/${nextPainterSlug}`);
       }, 5000); // 5-second delay
 
       // Clean up the timer
@@ -86,7 +86,6 @@ const index = () => {
         lightbox={lightbox}
       />
     </>
-
   )
 }
 

@@ -1,5 +1,5 @@
 import { BrowserRouter } from "react-router-dom";
-import AppRoutes from './AppRoutes';
+import AppRoutes from "./AppRoutes";
 import { SlideshowProvider } from "./Context";
 
 function App() {
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

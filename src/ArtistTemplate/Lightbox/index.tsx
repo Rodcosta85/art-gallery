@@ -17,7 +17,6 @@ const index:React.FC<ArtistProps> = ({ currentPainting, triggerLightbox, lightbo
                     </button>
                     <img
                         src={currentPainting?.images.gallery}
-                        alt=""
                         className='w-[57.31rem] h-178 object-cover' />
                 </div>
             </div>
