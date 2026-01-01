@@ -21,7 +21,7 @@ const index: React.FC<FooterProps> = ({ currentPainting,
     const progressPercent = ((currentIndex + 1) / totalPaintings) * 100;
 
     return (
-        <div className='flex flex-col gap-[1.5rem] pb-[1.5rem]'>
+        <div className='flex flex-col gap-[1.5rem] pb-[1.5rem] md:mt-16'>
             <div
                 className="progress-bar-container"
                 style={{

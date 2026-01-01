@@ -60,8 +60,8 @@ const index = () => {
   return (
     <>
       <hr className="w-full h-[1rem] text-light-gray mb-[3.5rem]" />
-      <div className='flex flex-col justify-between gap-[5rem]'>
-        <div className='flex justify-between'>
+      <div className='h-full flex flex-col justify-between gap-[5rem]'>
+        <div className='flex flex-col justify-between xl:flex-row gap-16 xl:gap-0'>
           <ImagesTitle
             currentPainting={currentPainting}
             triggerLightbox={triggerLightbox}
